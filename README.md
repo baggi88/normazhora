@@ -1,4 +1,4 @@
-<img src="screenshots/main.png" alt="App Icon" height="40"> # НормаЖора
+<img src="images/main.png" alt="App Icon" height="40"> # НормаЖора
 
 Telegram-бот для расчёта индивидуальных норм питания и поддержки здорового образа жизни.  
 Проект был создан с помощью искусственного интеллекта **GPT-4 (OpenAI)** через платформу **Cursor** и предназначен для портфолио.
@@ -22,4 +22,4 @@ Telegram-бот для расчёта индивидуальных норм пи
 
 ## Скриншоты
 
-<td><img src="screenshots/screen_history.png" alt="История расчетов" width="200"/></td>
+<td><img src="images/screen_history.png" alt="История расчетов" width="200"/></td>
