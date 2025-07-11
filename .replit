@@ -1,0 +1,24 @@
+run = "python main.py"
+hidden = [".config", "package.json", "package-lock.json"]
+entrypoint = "main.py"
+
+[nix]
+channel = "stable-22_11"
+
+[env]
+PYTHONPATH = "${PYTHONPATH}:${REPL_HOME}"
+
+[packager]
+language = "python3"
+ignoredPackages = ["unit_tests"]
+
+[packager.features]
+enabledForHosting = false
+packageSearch = true
+guessImports = true
+
+[languages.python3]
+pattern = "**/{*.py,*.py3,*.python}"
+
+[languages.python3.languageServer]
+start = "pylsp" 
